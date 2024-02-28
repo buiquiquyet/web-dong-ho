@@ -1,0 +1,126 @@
+.grid_userLeft {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    max-width: 20%;
+    height: 50%;
+    min-height: 50%;
+}
+
+.user_lable {
+    font-size: 1.8rem;
+    padding: 5px;
+    background-color: #ffef98;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.user_img {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.user_img img {
+    width: 50%;
+}
+
+.user_name,
+.user_rank,
+.user_code {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.user_name span,
+.user_rank span,
+.user_code span {
+    font-weight: bold;
+}
+
+.grid_rightUser {
+    width: 80%;
+    max-width: 80%;
+    margin-left: 10px;
+}
+
+.grid_userRight {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    display: none;
+}
+
+.grid_userRight--show {
+    display: block;
+}
+
+.user_border--lable {
+    border-bottom: 2px solid red;
+    color: red !important;
+}
+
+.userRight_labe {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: black;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.userRight_labe a {
+    padding: 20px;
+}
+
+.userRight_labe a {
+    text-decoration: none;
+    color: black;
+}
+
+.userRight_labe a:hover {
+    color: red;
+}
+
+.user_right--form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 20px;
+}
+
+.user_form--lable {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user_right--form input {
+    width: 50%;
+    font-size: 1.4rem;
+    padding: 10px 10px;
+    color: black;
+    margin: 5px auto;
+    outline: none;
+}
+
+.user_btn {
+    width: 60px !important;
+    background-color: #288ad6;
+    border: none;
+    color: white !important;
+    outline: none;
+}
+
+.user_btn:hover {
+    cursor: pointer;
+}

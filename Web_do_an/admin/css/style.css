@@ -1,0 +1,12 @@
+
+body{
+	font-family: "Poppins";
+	padding: 20px;
+}
+.eye{
+	position : absolute;
+	right: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
